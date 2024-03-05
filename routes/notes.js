@@ -1,5 +1,5 @@
 const express = require('express');
-const fetchuser = require('../middleware/fetchUser');
+const fetchuser = require('../middleware/fetchuser');
 const router = express.Router();
 const Note = require('../models/Note');
 const { body, validationResult } = require('express-validator'); //importing data validator for validate user input data
